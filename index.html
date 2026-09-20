@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://html-classic.itch.zone/html/19199787/index.html?v=1789165976 -->
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	
+	<title>SHAPE Web Demo v17 itch.io</title>
+	<style>
+		html,
+		body {
+			background: #000;
+			width: 100%;
+			height: 100%;
+			overflow: visible;
+			padding: 0;
+			margin: 0;
+		}
+
+		div#gameContainer {
+			background: transparent !important;
+			position: absolute;
+		}
+
+		div#gameContainer canvas {
+			position: absolute;
+		}
+
+		div#gameContainer canvas[data-pixel-art="true"] {
+			position: absolute;
+			image-rendering: optimizeSpeed;
+			image-rendering: -webkit-crisp-edges;
+			image-rendering: -moz-crisp-edges;
+			image-rendering: -o-crisp-edges;
+			image-rendering: crisp-edges;
+			image-rendering: -webkit-optimize-contrast;
+			image-rendering: optimize-contrast;
+			image-rendering: pixelated;
+			-ms-interpolation-mode: nearest-neighbor;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="gameContainer" style="width: 964px; height: 542px; top: 0px; left: 41px;">
+		<canvas id="unity-canvas" data-pixel-art="" width="964" height="542" style="background: linear-gradient(to right, white, white 100%, transparent 100%, transparent) center center / 100% 1rem no-repeat; width: 964px; height: 542px; cursor: url(&quot;data:image/cur;base64,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nQFy/xgAEfYBAQG0AAAAbAAAAFIAAAA8AAAAKgAAABoAAAAPAAAACAAAAAQAAAACAAAAAQAAAAAJAQb4sgB1//4Apv//Aaf//wCo//8BqP//AKj//wGp//8Btf//ALr//wC5//8Auf//ALn//wC6//8Auv//Abn/9QCx/5MAa/8WARD1AQABrwAAAG0AAABTAAAAPgAAACsAAAAcAAAAEQAAAAkAAAAFAAAAAgAAAAEAAAABAAAAAAoBBviyAHX//QCm//8AqP//Aaf//wGo//8AqP//AK///wC4//8Buf//ALn//wG5//8Buf//ALn//wG5//QAsP+OAWj/EwAO9QEAAa0AAABsAAAAUwAAAD4AAAArAAAAHAAAABEAAAAKAAAABQAAAAMAAAABAAAAAQAAAAAAAAAACgEG+LIBdv/9AKb//wGo//8AqP//Aaj//wGo//8AtP//Abn//wG5//8Buf//ALn//wC5//4AuP/yAK//hwBj/xAADPQAAACtAAAAbAAAAFMAAAA+AAAAKwAAABwAAAARAAAACgAAAAUAAAADAAAAAQAAAAEAAAAAAAAAAAAAAAAJAAb4sgF1//4Bpv//AKj//wGn//8BqP//Aaz//wC4//8Auv//ALr//wG5//8Auv//ALn/7QCr/3cBVv8OAArzAQEBqgAAAGsAAABSAAAAPQAAACoAAAAcAAAAEQAAAAoAAAAFAAAAAwAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAoBB/myAXb//QCm//8AqP//Aaj//wGo//8Asv//ALn//wC5//8Auv//Abn//wG5/+wBq/9sAE//CgEH8QEAAKcAAABqAAAAUQAAADwAAAAqAAAAGwAAABEAAAAKAAAABQAAAAMAAAACAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAACgEG+bIAdf/+AKb//wCo//8BqP//Aar//wC3//8Auf//ALn//wC5//8Buf/pAKn/ZQBI/wgABu8AAACjAAAAaAAAAFEAAAA8AAAAKQAAABsAAAARAAAACgAAAAUAAAADAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAb5sQB1//4Apv//AKj//wCo//8Asf//ALn//wC5//8Auv//ALn/6QCp/2AARv8GAAXtAAAAnwAAAGcAAABQAAAAOwAAACkAAAAaAAAAEAAAAAkAAAAFAAAAAwAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkABvmyAHX//gGm//8AqP//AKn//wC2//8Auf//ALn//gC3/+UApv9gAEX/BwEF6wAAAJsAAABmAAAATwAAADoAAAAoAAAAGgAAABAAAAAJAAAABQAAAAMAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgEH+bIAdf/+AKb//wCo//8Br///ALj//wC5//4At//kAaX/WAFB/wYBBOkAAACYAAAAZAAAAE4AAAA5AAAAJwAAABkAAAAQAAAACQAAAAUAAAADAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAb5swF2//4Apv//AKn//wC0//8Buf/+Abf/4ACh/1QAPf8FAATnAAAAlQAAAGMAAABNAAAAOAAAACcAAAAZAAAADwAAAAkAAAAFAAAAAwAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoBB/m1AHf//gGn//8BrP//Abf//QC3/90AoP9QATv/BQED4wAAAI8AAABhAAAASwAAADcAAAAmAAAAGAAAAA8AAAAJAAAABQAAAAMAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgEG+bUAd//+AKf//wCz//wAtv/ZAJz/SQA1/QQAA9oAAACJAAAAXwAAAEkAAAA2AAAAJQAAABgAAAAOAAAACAAAAAUAAAADAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAb5tAB3//4Aqf/9ALX/1ACZ/0MAMfwDAALWAAAAggAAAF0AAABIAAAANAAAACQAAAAXAAAADgAAAAgAAAAEAAAAAgAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoABvm0AHf/+wCv/88Blf8/AC77AwED0AAAAHoAAABYAAAARQAAADMAAAAjAAAAFgAAAA0AAAAIAAAABAAAAAIAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAG+bMAeP/MAJH/OQAp+QMAAsMAAABuAAAAUQAAAEEAAAAxAAAAIQAAABUAAAANAAAABwAAAAQAAAACAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAb5fwBY/zYBJ/cDAAKzAAAAVAAAAEMAAAA6AAAALAAAAB8AAAAUAAAADAAAAAcAAAAEAAAAAgAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAfgOAQr2AwECngAAADkAAAAvAAAALQAAACYAAAAcAAAAEgAAAAsAAAAHAAAABAAAAAIAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEB2gAAAKIAAAAlAAAAGQAAAB0AAAAbAAAAFgAAAA8AAAAKAAAABgAAAAMAAAACAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=&quot;), default;"></canvas>
+		<script src="./SHAPE Web Demo v17 itch.io_files/v17 itch.loader.js"></script>
+		<script>
+			var canvas = document.querySelector("#unity-canvas");
+			var config = {
+				dataUrl: "Build/v17 itch.data.br",
+				frameworkUrl: "Build/v17 itch.framework.js.br",
+				codeUrl: "Build/v17 itch.wasm.br",
+				streamingAssetsUrl: "StreamingAssets",
+				companyName: "STUDIO LOOK",
+				productName: "SHAPE Web Demo v17 itch.io",
+				productVersion: "17.0",
+			};
+			var scaleToFit;
+			try {
+				scaleToFit = !!JSON.parse("");
+			} catch (e) {
+				scaleToFit = true;
+			}
+			function progressHandler(progress) {
+				var percent = progress * 100 + '%';
+				canvas.style.background = 'linear-gradient(to right, white, white ' + percent + ', transparent ' + percent + ', transparent) no-repeat center';
+				canvas.style.backgroundSize = '100% 1rem';
+			}
+			function onResize() {
+				var container = canvas.parentElement;
+				var w;
+				var h;
+
+				if (scaleToFit) {
+					w = window.innerWidth;
+					h = window.innerHeight;
+
+					var r = 1080 / 1920;
+
+					if (w * r > window.innerHeight) {
+						w = Math.min(w, Math.ceil(h / r));
+					}
+					h = Math.floor(w * r);
+				} else {
+					w = 1920;
+					h = 1080;
+				}
+
+				container.style.width = canvas.style.width = w + "px";
+				container.style.height = canvas.style.height = h + "px";
+				container.style.top = Math.floor((window.innerHeight - h) / 2) + "px";
+				container.style.left = Math.floor((window.innerWidth - w) / 2) + "px";
+			}
+			createUnityInstance(canvas, config, progressHandler).then(function (instance) {
+				canvas = instance.Module.canvas;
+				onResize();
+			});
+			window.addEventListener('resize', onResize);
+			onResize();
+
+			if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+				// Mobile device style: fill the whole browser client area with the game canvas:
+				const meta = document.createElement('meta');
+				meta.name = 'viewport';
+				meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+				document.getElementsByTagName('head')[0].appendChild(meta);
+			}
+		</script>
+	</div><script src="./SHAPE Web Demo v17 itch.io_files/v17 itch.framework.js.br"></script>
+
+
+
+<script defer="" src="./SHAPE Web Demo v17 itch.io_files/htmlgame.js" type="text/javascript"></script></body></html>
